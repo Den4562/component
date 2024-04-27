@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Children, cloneElement } from "react";
 import s from "../Style/Slider.module.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-const PAGE_WIDTH = 450;
+const PAGE_WIDTH = 800;
 
 export const Slider = ({ children }) => {
   const [pages, setPages] = useState([]);
